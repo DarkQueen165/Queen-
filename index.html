@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Beranda - Aliyah</title>
+</head>
+<body>
+  <h1>Selamat datang di website Aliyah!</h1>
+  <nav>
+    <a href="index.html">Beranda</a> |
+    <a href="biodata.html">Biodata</a> |
+    <a href="kontak.html">Kontak</a>
+    <button onclick="toggleMode()">Ganti Mode</button>
+  </nav>
+
+  <p>Hai, aku Aliyah Putri Fazila. Ini adalah website pribadiku!</p>
+  <img src="C:\file khusus aliyah\pictures" alt="Foto Aliyah" class="foto-aliyah">
+
+  <script>
+    function toggleMode() {
+      const body = document.body;
+      body.classList.toggle('dark-mode');
+      body.classList.toggle('light-mode');
+    }
+    document.body.classList.add('light-mode');
+  </script>
+</body>
+</html>
